@@ -4,10 +4,12 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `Looking for a professional and challenging role to utilize my technical skills for the growth of the organization and to improve my skills in emerging technologies`;
+export const HERO_CONTENT = `Looking for a professional and challenging role to utilize my Data Analyst & Technical skills for thr growth of the organization and to improve my skills in emerging thechnologies.`;
 
-export const ABOUT_TEXT = `I am a developer with a passion for creating efficient and user-friendly applications.I have worked with a variety of technologies like HTML,CSS,Javascript,React.js, python, Node.js, MySQL,AWS, and MongoDB. My journey in development began with a curiosity about how things work, and it has evolved into a career where I continuously put effort to learn and adapt a new challenges. I enjoy working in collaborative environments, solving problems, and delivering quality solutions.. Outside of coding, I enjoy staying active, exploring new technologies & places, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an aspiring Data Analyst with a strong interest in working with data to uncover meaningful insights and support better decision-making. I have hands-on experience with tools like Excel, SQL, and Power BI, where I enjoy cleaning data, analyzing patterns, and building interactive dashboards.
+My journey into data analytics started with curiosity about how data can influence business outcomes, and it has grown into a passion for solving real-world problems through analysis and visualization. I am currently enhancing my skills through practical projects and an ongoing internship, continuously learning and adapting to new challenges in the data field.`;
 
+// Education
 export const EDUCATION = [
   {
     year: "2022 - 2025",
@@ -19,7 +21,7 @@ export const EDUCATION = [
   {
     year: "2019 - 2022",
     college: "GOVERNMENT POLYTECHNIC COLLEGE ANAKAPALLI -COMPUTER ENGINEERING",
-    cgpa: "CGPA:81%",
+    cgpa: "CGPA:82%",
     Location: `Rebaka,ANAKAPALLI,VISAKHAPATNAM`,
     technologies: ["Diploma"],
   },
@@ -32,62 +34,59 @@ export const EDUCATION = [
   },
 ];
 
+// Internship
 export const  INTERNSHIPS= [
   {
+    year: "November(2025)-April(2026)",
+    company: "Rubixe",
+    technologies: ["Data Analyst"],
+  },
+  {
     year: "2024",
-    company: "Plasmid - AICIt",
-    technologies: ["Wed Development"],
-  },
-  {
-    year: "2023",
-    company: "Brainovision Solution india Pvt.Ltd",
-    technologies: ["Amazon web services"],
-  },
-  {
-    year: "2023",
-    company: "Infosys Springboard",
-    technologies: ["Internships in citizen data science using python certification"],
+    company: "Plasmid - AICIT",
+    technologies: ["Web Deveploment"],
   },
 ];
 
 
-
+// Projects
 export const PROJECTS = [
-     {
-    title: "Discord-bot",
+  {
+    title: "Supply Chain Analysis",
     image: project1,
     description:
-       "It is discord_bot which is used to encourage person when a person in sad",
-     technologies: ["python"],
-},
-  {
-    title: "Student management",
-    image: project2,
-    description:
-      "Which is used to store a student details",
-    technologies: ["python flask","mysql","MongoDB"],
+      "Analyzed supply chain data to monitor product flow, shipping costs, and supplier efficiency. Built interactive dashboards to support data-driven decisions and optimize business operations.",
+    technologies: ["MySQL","Power BI"],
+
   },
   {
-    title: "Portfolio Website",
+    title: "Shopping Data Analysis",
+    image: project2,
+    description:
+      "The Project focuses on analyzing customer shopping patterns to understand how gender,age groups,product categories and payment methods impact revenue and business performance.",
+    technologies: ["MySQL","Power BI","PowerPoint"],
+  },
+     {
+    title: "Customer Shopping Behavior Analysis",
     image: project3,
+    description:
+       "This project focuses on analyzing customer shopping behavior to identify key patterns,trends and factors influencing sales and profitability. ",
+     technologies: ["python","SQL","Power BI"],
+},
+  
+  {
+    title: "Portfolio Website",
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
-  {
-    title: "Voting Application",
-    image: project4,
-    description:
-      "A website for voting for a favourite Anime.",
-    technologies: ["HTML", "CSS", "REACT.JS"],
-
-  },
    {
-   title: "Friends Gym",
+   title: "Sales Performance Dashboard",
    image: project5,
    description:
-    "A platform for Gym details and user send a messager for owner about a gym and we have a BMI calculator.",
-     technologies: ["HTML", "CSS", "REACT.JS", "MONGODB    ",],
+    "This project involves a comprehensive sales performance dashboard designed to provide stakeholders with key insights into sales trends and profitability.",
+     technologies: ["Excel","Pivot Tables"],
     },
 ];
 
