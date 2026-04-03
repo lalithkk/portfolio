@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `Looking for a professional and challenging role to utilize my Data Analyst & Technical skills for thr growth of the organization and to improve my skills in emerging thechnologies.`;
+export const HERO_CONTENT = `Looking for a professional and challenging role to utilize my Data Analyst & Technical skills for the growth of the organization and to improve my skills in emerging thechnologies.`;
 
-export const ABOUT_TEXT = `I am an aspiring Data Analyst with a strong interest in working with data to uncover meaningful insights and support better decision-making. I have hands-on experience with tools like Excel, SQL, and Power BI, where I enjoy cleaning data, analyzing patterns, and building interactive dashboards.
+export const ABOUT_TEXT = `I am an aspiring Data Analyst with a strong interest in working with data to uncover meaningful insights and support better decision-making. I have hands-on experience with tools like Excel, SQL,Python and Power BI, where I enjoy cleaning data, analyzing patterns, and building interactive dashboards.
 My journey into data analytics started with curiosity about how data can influence business outcomes, and it has grown into a passion for solving real-world problems through analysis and visualization. I am currently enhancing my skills through practical projects and an ongoing internship, continuously learning and adapting to new challenges in the data field.`;
 
 // Education
