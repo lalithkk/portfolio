@@ -20,7 +20,7 @@ I enjoy transforming raw data into meaningful insights and building visually app
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack for this portfolio
 - **Frontend:** React.js, Tailwind CSS
 - **Animations:** Framer Motion
 - **Icons:** React Icons
@@ -28,13 +28,11 @@ I enjoy transforming raw data into meaningful insights and building visually app
 
 ---
 
-## 📌 Features
+## 📌 Features for portfolio
 - ✨ Modern and responsive UI
 - 🎯 Smooth animations using Framer Motion
 - 📊 Dedicated section for skills & technologies
 - 🖼️ Clean hero section with personal branding
 - 🔗 Social media integration (GitHub, LinkedIn, Instagram)
 
----
 
-## 📂 Project Structure
